@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practise</title>
+    <style>
+        .main-container {
+            border: 1px solid magenta;
+            max-width: 90%;
+            margin: 0 auto;
+            height: 100vh;
+        }
+
+        .section-container {
+            border: 1px solid tomato;
+            border-radius: 10px;
+            padding: 10px;
+            display: flex;
+            gap: 30px;
+        }
+        .section-container div{
+            width: 50%;
+        }
+        .image img {
+            width: 100%;
+        }
+
+        @media screen and (max-width:576px) {
+            .section-container {
+                flex-direction: column;
+            }
+            .section-container div{
+            width: 100%;
+            
+        }
+
+        }
+
+    /* @media screen and (max-width:540px){
+        .section-container{
+                flex-direction: column-reverse;
+            }
+            .section-container div{
+                width: 100%;
+        }
+    } */
+    </style>
+</head>
+
+<body>
+    <main class="main-container">
+        <div class="section-container">
+            <div class="text">
+                <h3>Artical-360</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores corrupti cumque quis dolore
+                    dolor, quos nulla ab esse, quaerat repellat obcaecati. Perspiciatis, commodi? Provident dignissimos
+                    aut ab adipisci blanditiis nulla! Impedit cum quod incidunt laborum nulla ullam sequi quidem </p>
+            </div>
+            <div class="image">
+                <img src="images/tiger.jpg" alt="">
+            </div>
+        </div>
+        <div class="section-container">
+            <div class="image">
+                <img src="images/tiger.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Artical-360</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores corrupti cumque quis dolore
+                    dolor, quos nulla ab esse, quaerat repellat obcaecati. Perspiciatis, commodi? Provident dignissimos
+                    aut ab adipisci blanditiis nulla! Impedit cum quod incidunt laborum nulla ullam sequi quidem </p>
+            </div>
+        </div>
+        <!-- <div class="section-container">
+            <div class="text">
+                <h3>Artical-360</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores corrupti cumque quis dolore
+                    dolor, quos nulla ab esse, quaerat repellat obcaecati. Perspiciatis, commodi? Provident dignissimos
+                    aut ab adipisci blanditiis nulla! Impedit cum quod incidunt laborum nulla ullam sequi quidem </p>
+            </div>
+            <div class="image">
+                <img src="images/tiger.jpg" alt="">
+            </div>
+        </div> -->
+
+    </main>
+    <!------------- grid layout -------------->
+</body>
+
+</html>
